@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sofiar/proprietary/etc/init/init.system.mmi.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.system.mmi.rc \
     vendor/motorola/sofiar/proprietary/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/wfdservice.rc \
     vendor/motorola/sofiar/proprietary/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/audiosphere.xml \
-    vendor/motorola/sofiar/proprietary/etc/permissions/com.motorola.dolby.dolbyui.features.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.dolby.dolbyui.features.xml \
     vendor/motorola/sofiar/proprietary/etc/permissions/com.motorola.frameworks.core.addon.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.frameworks.core.addon.xml \
     vendor/motorola/sofiar/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/motorola/sofiar/proprietary/etc/permissions/com.qualcomm.location.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.location.xml \
@@ -246,14 +245,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sofiar/proprietary/usr/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-fpc.kl \
 
 PRODUCT_PACKAGES += \
-    MotoDolbyV3 \
     com.motorola.frameworks.core.addon \
     com.qti.snapdragon.sdk.display \
     qcom-moto-telephony-ext \
     vendor.egistec.hardware.fingerprint-V2.0-java
 PRODUCT_COPY_FILES += \
     vendor/motorola/sofiar/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
-    vendor/motorola/sofiar/proprietary/product/etc/permissions/com.dolby.daxservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.dolby.daxservice.xml \
     vendor/motorola/sofiar/proprietary/product/etc/permissions/com.motorola.imager.access.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.imager.access.xml \
     vendor/motorola/sofiar/proprietary/product/etc/permissions/com.motorola.imager.lake.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.imager.lake.xml \
     vendor/motorola/sofiar/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
@@ -485,7 +482,6 @@ PRODUCT_PACKAGES += \
     uimgbaservice \
     VzwDM \
     atfwd \
-    daxService \
     ims \
     qcrilmsgtunnel \
     vzwPcoExt \
